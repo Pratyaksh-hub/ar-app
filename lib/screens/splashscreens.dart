@@ -16,23 +16,24 @@ class _MySplashScreenState extends State<MySplashScreen> {
     return SplashScreen(
       seconds: 5,
       navigateAfterSeconds: ItemListScreen(),
-      title: const Text(
-        'AR Furniture App',
+      title: Text(
+        'Augmented Reality App',
       style: TextStyle(
-      fontWeight: FontWeight.w300,
+      fontWeight: FontWeight.bold,
       fontSize: 30,
-      color: Colors.deepOrange,
+      color: Colors.yellow.shade900,
        ),
       ),
       image: Image.asset('items/icon.png'),
-      backgroundColor: const Color.fromARGB(255, 160, 213, 226),
+      backgroundColor: Colors.white,
       photoSize: 180,
-      loaderColor: const Color.fromARGB(255, 182, 228, 76),
-      loadingText: const Text(
-        'Furniture App',
+      loaderColor: Colors.blue.shade900,
+      loadingText: Text(
+        'AR App',
       style: TextStyle(
-      color: Colors.greenAccent,
+      color: Colors.yellow.shade900,
       fontSize: 17.0,
+        fontWeight: FontWeight.bold
        ),
       ),
      );
