@@ -14,10 +14,7 @@ void main() async
   print(await ArCoreController.checkIsArCoreInstalled());
 
   runApp(
-      const MyApp(
-
-      )
-
+      const MyApp()
   );
 }
 
